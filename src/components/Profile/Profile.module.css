@@ -1,0 +1,44 @@
+.card {
+  background-color: white;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  border-radius: 5px;
+}
+.imageContainer {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 33%;
+  margin: auto;
+  margin-top: 30px;
+}
+.userName {
+  color: grey;
+  text-align: center;
+  font-size: 2rem;
+}
+.userTag,
+.userLocation {
+  composes: userName;
+  font-size: 1rem;
+}
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(240, 240, 240);
+}
+.statsFollowers,
+.statsViews,
+.statsLikes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 33%;
+  border: 1px solid grey;
+}
+.statsType {
+  margin: auto;
+  font-size: 1rem;
+}
+.statsValue {
+  font-weight: bold;
+  font-size: 1.1rem;
+}

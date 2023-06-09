@@ -1,8 +1,10 @@
 import css from './Statistics.module.css';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 export const Statistics = props => (
   <section className={css.statistics}>
-    <h2 className="title">Upload stats</h2>
+    <h2 className={css.title}>Upload stats</h2>
 
     <ul className={css.statList}>
       <li className={css.item}>

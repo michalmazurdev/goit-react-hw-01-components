@@ -12,6 +12,7 @@ export const Statistics = ({ title, stats }) => (
     <ul className={css.statList}>
       {stats.map(stat => (
         <li
+          key={stat.id}
           className={css.item}
           style={{
             backgroundColor: `#${randomColor()}`,

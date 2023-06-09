@@ -1,4 +1,5 @@
 import { Profile, user } from 'components/Profile/Profile';
+import { Statistics } from './Statistics/Statistics';
 export const App = () => {
   return (
     <div
@@ -9,6 +10,8 @@ export const App = () => {
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
+        flexDirection: 'column',
+        gap: 20,
       }}
     >
       <Profile
@@ -18,6 +21,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+      <Statistics />
     </div>
   );
 };

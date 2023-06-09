@@ -1,5 +1,14 @@
 .statistics {
   background-color: white;
+  width: 512px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  border-radius: 5px;
+}
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  line-height: 4rem;
 }
 .statList {
   display: flex;
@@ -9,4 +18,14 @@
   display: flex;
   flex-direction: column;
   width: 25%;
+}
+.label {
+  font-size: 1.5rem;
+  color: white;
+  text-align: center;
+}
+.percentage {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
 }

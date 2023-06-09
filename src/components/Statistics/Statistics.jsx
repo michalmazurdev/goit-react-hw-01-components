@@ -8,7 +8,7 @@ const randomColor = () => {
 
 export const Statistics = ({ title, stats }) => (
   <section className={css.statistics}>
-    <h2 className={css.title}>{title}</h2>
+    {title && <h2 className={css.title}>{title}</h2>}
     <ul className={css.statList}>
       <li
         className={css.item}
@@ -49,3 +49,8 @@ export const Statistics = ({ title, stats }) => (
     </ul>
   </section>
 );
+
+Statistics.propTypes = {
+  title: PropTypes.string,
+  stats: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
+};

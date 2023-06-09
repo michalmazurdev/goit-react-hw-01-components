@@ -1,0 +1,12 @@
+.statistics {
+  background-color: white;
+}
+.statList {
+  display: flex;
+  width: 100%;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}

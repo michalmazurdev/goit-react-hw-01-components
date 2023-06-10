@@ -17,7 +17,10 @@
 }
 .userTag,
 .userLocation {
-  composes: userName;
+  /* composes: userName; */
+  color: grey;
+  text-align: center;
+  font-size: 2rem;
   font-size: 1.2rem;
 }
 .stats {

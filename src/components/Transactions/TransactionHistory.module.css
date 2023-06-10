@@ -1,0 +1,28 @@
+table {
+  width: 512px;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
+  margin-bottom: 20px;
+}
+.transactionHistory,
+td,
+th {
+  border-collapse: collapse;
+  border: 1px solid grey;
+}
+th {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+tr {
+  background-color: white;
+}
+tr:nth-of-type(2n) {
+  background-color: lightgrey;
+}
+tbody tr:hover {
+  background-color: grey;
+}
+td {
+  text-align: center;
+  font-size: 1rem;
+}
